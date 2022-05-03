@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(240,240,240);
+  color: rgb(45,45,45);
+  font-family: Times, serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(50,10,200);
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 1200;
+  letter-spacing: 2px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(200,30,30);
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 30px;
+}
+a {
+  text-decoration: line;
+  color: blue;
+  font-weight: bolder;
+  font-size: 18px;
+}
+a:hover {
+  color: rgb(200,30,30);
+}
+
+.container {
+	width: 500px
+	margin: auto;
+}
+
+.cardwhite {
+	background: white
+	padding:100px ;
+	margin: 20px 20px 40px 40px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.3); 
+	border-radius:6px;
+}
+
+
+
+
+.img-oval {
+    border-radius: 90%;
+    box-shadow: 5px 5px 5px black;
+	border: 10px red;
+	width: 150px;
+
+}
+
+
+.btn-blue {
+  background-color: rgb(79, 70, 223);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+ 
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(200,200,200);
+}
+.list-inline i:hover{
+  color: blue;
+}
+
+#Introduction {
+margin-bottom: 30px
+}
+
+
+@media (max-width: 720px) {
+    .container {
+      width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+      width: 400px;
+    }
+}
